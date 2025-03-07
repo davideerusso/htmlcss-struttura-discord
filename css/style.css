@@ -109,3 +109,28 @@
   width: 100%;
   border: 1px dashed black;
 }
+.foot {
+  background-color: rgb(43, 43, 43);
+  height: 700px;
+}
+.footer-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.red {
+  background-color: red;
+}
+.first {
+  width: 350px;
+}
+.second .cyano {
+  background-color: aquamarine;
+}
+.second div {
+  width: 25%;
+  border: 1px dashed white;
+}
+.second {
+  flex-grow: 1;
+}
